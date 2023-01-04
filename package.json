@@ -2,7 +2,6 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://webcode-backend-guvi.onrender.com",
   "dependencies": {
     "@paypal/react-paypal-js": "^7.8.1",
     "@testing-library/jest-dom": "^5.16.5",
@@ -47,5 +46,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "proxy": "https://webcode-backend-guvi.onrender.com"
 }
