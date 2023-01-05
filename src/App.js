@@ -45,7 +45,11 @@ function App() {
   useEffect(() => {
     const fetchCategories = async () => {
       try {
+<<<<<<< HEAD
         const { data } = await axios.get(`https://laptops.onrender.com/api/products/categories`);
+=======
+        const { data } = await axios.get(`https://webcode-backend-guvi.onrender.com/api/products/categories`);
+>>>>>>> af52fd4e6807292f07f0c36a069dc580a31f18df
         setCategories(data);
       } catch (err) {
         toast.error(getError(err));
